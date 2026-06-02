@@ -1,13 +1,13 @@
-# Source pointer: theory_of_organization_foundation_v0_5_1_final_clean.md
+# Export placeholder: triadic_closure_recursive_residual_theory_v0_7.md
 
-Drive URL: https://drive.google.com/file/d/1HxwiLEBdcEDFHlATtx-Fiqs1ejKcQnge/view
+This is an export placeholder, not the full manuscript.
 
-Layer: Core mathematical foundation
+The full manuscript should be exported from the Google Drive source folder as Markdown and PDF, then placed under:
 
-Release tier: Main public v2.0
+```text
+papers/canonical/
+```
 
-Role: Base quotient-face organization theory
+Current status: full manuscript not yet uploaded to GitHub.
 
-Next action: Include in main corpus.
-
-Note: Replace this pointer with the full exported manuscript PDF/Markdown before public release.
+See `FULL_MANUSCRIPT_EXPORT_QUEUE.md` for the export order and `MAIN_PUBLIC_CORPUS.md` for the canonical reader path.
