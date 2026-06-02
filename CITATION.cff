@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this programme release, please cite it as below."
+title: "Relation-First Organization Programme: Public Programme Release Shell v2.1"
+authors:
+  - family-names: "Motruk"
+    given-names: "Artur"
+    orcid: "https://orcid.org/0009-0003-6928-1701"
+version: "v2.0-candidate"
+date-released: "2026-05-19"
+abstract: "Public programme footprint and reader map for the Relation-First Organization Programme."
+license: "CC-BY-4.0"
