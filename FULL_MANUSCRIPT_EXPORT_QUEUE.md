@@ -2,11 +2,35 @@
 
 This repository is currently a public programme-footprint shell. Several root-level manuscript-looking files from the first upload were source-pointer placeholders rather than full manuscripts, and some of those pointers were mismatched.
 
-The next step is to export the full manuscripts from the Google Drive source folder and place them into the appropriate `papers/` folders.
+The next step is **not** simply exporting PDFs. The next step is a public-suitability pass, followed by controlled Markdown/PDF export.
 
-## Required export formats
+See:
 
-For each canonical paper, export at least:
+```text
+PUBLIC_SUITABILITY_AUDIT_PROTOCOL.md
+```
+
+## Gate order
+
+For every manuscript:
+
+```text
+Drive source
+-> public-suitability audit
+-> content-preserving register cleanup if needed
+-> Markdown export
+-> PDF export
+-> placement into papers/<tier>/
+-> release checklist
+-> GitHub release
+-> Zenodo DOI
+```
+
+Do not place a manuscript into a public release merely because a PDF exists.
+
+## Required export formats after suitability pass
+
+For each canonical paper that passes the suitability audit, export at least:
 
 - Markdown (`.md`)
 - PDF (`.pdf`)
@@ -16,15 +40,15 @@ Optional later:
 - DOCX (`.docx`)
 - LaTeX source (`.tex`) where needed for arXiv/journal submission
 
-## Canonical spine export targets
+## Canonical spine audit/export targets
 
-Place full manuscripts under:
+Place audited full manuscripts under:
 
 ```text
 papers/canonical/
 ```
 
-Export these first:
+Audit these first:
 
 1. `relation_first_constraint_position_statement_v0_4.md`
 2. `relation_first_organization_programme_guide_v0_5.md`
@@ -44,9 +68,19 @@ Export these first:
 16. `bridge_valence_diagnostics_predictive_criticality_v1_12.md`
 17. `generative_bridge_search_structural_unblocker_transfer_v0_16.md`
 
-## Support/article export targets
+## First suitability pass priority
 
-Place under:
+Start with three representative difficulty levels:
+
+1. `relation_first_constraint_position_statement_v0_4.md` — likely low-risk register cleanup.
+2. `theory_of_organization_foundation_v0_5_1_final_clean.md` — core foundation suitability check.
+3. `bridge_valence_diagnostics_predictive_criticality_v1_12.md` — high-density methodology paper requiring content-preserving public-register repair.
+
+Do **not** start with all 17 at once.
+
+## Support/article audit/export targets
+
+Place audited full manuscripts under:
 
 ```text
 papers/support/
@@ -80,4 +114,4 @@ AS / critical-rank files require a separate branch reader map and provenance aud
 
 ## Rule
 
-Do not create a GitHub release or Zenodo DOI until the full manuscript exports intended for the first public release have replaced the placeholder state.
+Do not create a GitHub release or Zenodo DOI until the manuscripts intended for the first public release have passed the public-suitability audit and full manuscript exports have replaced the placeholder state.
