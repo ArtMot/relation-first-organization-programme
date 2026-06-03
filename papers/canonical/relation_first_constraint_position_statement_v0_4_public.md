@@ -5,7 +5,7 @@
 **ORCID:** 0009-0003-6928-1701  
 **Programme:** Relation-First Organization Programme  
 **Document type:** Position statement / programme parser  
-**Public release status:** Repository manuscript draft for public programme release  
+**Public release status:** Repository manuscript for public programme release  
 
 ---
 
@@ -660,4 +660,4 @@ That is the parser this document is meant to install.
 
 ## AI-assistance disclosure
 
-This document was developed with AI-assisted drafting and review support. The author directed the research programme, selected and revised the mathematical and methodological content, and is responsible for all claims and errors.
+This manuscript was developed with AI-assisted drafting and review support. The author directed the research programme, selected and revised the mathematical and methodological content, and is responsible for all claims and errors.

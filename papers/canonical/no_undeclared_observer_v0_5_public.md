@@ -5,7 +5,7 @@
 **ORCID:** 0009-0003-6928-1701  
 **Programme:** Relation-First Organization Programme  
 **Document role:** Observer/readout-face corollary of No Undeclared Relation  
-**Public release status:** Repository manuscript draft for public programme release  
+**Public release status:** Repository manuscript for public programme release  
 
 ---
 
@@ -746,4 +746,4 @@ Rovelli, C. (1996). *Relational quantum mechanics*. International Journal of The
 
 ## AI-assistance disclosure
 
-This document was developed with AI-assisted drafting and review support. The author directed the research programme, selected and revised the mathematical and methodological content, and is responsible for all claims and errors.
+This manuscript was developed with AI-assisted drafting and review support. The author directed the research programme, selected and revised the mathematical and methodological content, and is responsible for all claims and errors.
