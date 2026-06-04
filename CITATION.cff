@@ -1,13 +1,14 @@
 cff-version: 1.2.0
 message: "If you use or discuss this programme release, please cite it as below."
-title: "Relation-First Organization Programme: Public Footprint Release v2.1"
+title: "Relation-First Organization Programme: Public Manuscript Footprint Release"
 authors:
   - family-names: "Motruk"
     given-names: "Artur"
     orcid: "https://orcid.org/0009-0003-6928-1701"
-version: "v2.1-public-footprint"
-date-released: 2026-06-02
+version: "v0.1-public-manuscript-footprint"
+date-released: 2026-06-04
 url: "https://github.com/ArtMot/relation-first-organization-programme"
 type: "generic"
-abstract: "Public programme-footprint release shell and reader map for the Relation-First Organization Programme."
+abstract: "Public programme-footprint repository for the Relation-First Organization Programme, including canonical repository manuscripts, canonical working manuscripts, non-claims, citation guidance, and staged release controls."
 license: "CC-BY-4.0"
+repository-code: "https://github.com/ArtMot/relation-first-organization-programme"
