@@ -3,15 +3,30 @@
 **Author:** Artur Motruk  
 **Affiliation:** Independent researcher  
 **ORCID:** 0009-0003-6928-1701  
-**Repository status:** public programme-footprint shell, not yet an archival DOI release  
+**Repository status:** public programme-footprint repository, pre-Zenodo DOI  
 
-This repository is the public programme-footprint repository for the **Relation-First Organization Programme**. It establishes the programme architecture, reader path, public corpus list, non-claims, AI-assistance disclosure, version-lineage policy, and current export queue before individual papers are submitted as preprints or journal articles.
+This repository is the public programme-footprint repository for the **Relation-First Organization Programme**. It provides stable public paths for the current foundation corpus, canonical working methodology papers, release controls, non-claims, citation guidance, and staged-publication documentation.
 
-## What this repository currently is
+## Start here
 
-This repository is currently a **release shell / public footprint**. It is intended to show the programme structure and canonical manuscript families while the full manuscript exports are being prepared.
+| File / folder | Purpose |
+|---|---|
+| `PUBLIC_MANUSCRIPT_INDEX.md` | Main index of public manuscript paths. |
+| `papers/canonical/` | Canonical repository manuscripts. |
+| `papers/canonical_working/` | Canonical working manuscripts needed by branch/application papers. |
+| `docs/` | Release controls, protocols, status tables, provenance notes, and frontier planning. |
+| `CITATION.cff` | Provisional citation metadata, to be updated after Zenodo DOI. |
 
-The full paper manuscripts should be exported from the Google Drive source folder and placed into the appropriate `papers/` folders before a GitHub release or Zenodo DOI is created.
+## Current public manuscript corpus
+
+The repository currently contains stable public paths for:
+
+```text
+14 canonical repository manuscripts
+3 canonical working manuscripts
+```
+
+The canonical working manuscripts are public because later branch/application papers explicitly depend on their methodology. They are citable by repository path, but they are not yet final standalone arXiv/journal-ready versions.
 
 ## Core programme spine
 
@@ -23,14 +38,17 @@ Relation-first constraint
 -> Charted Organization Theory
 -> Recursive Chart Learning Theory
 -> Triadic Closure / Cross-Closure / Closure Atlases
+-> Charted Objecthood
 -> No Undeclared Relation / Boundary / Observer
 -> Recursive Bridge Calibration
 -> Bridge-Valence Diagnostics
 -> Generative Bridge Search
+-> Face Requirement Kernels
+-> Declared Witness Assembly
 -> controlled frontier bridge construction
 ```
 
-The important v2.x correction is that **Bridge-Valence Diagnostics** and **Generative Bridge Search** are not internal scratch material. They are core discovery-methodology papers: Bridge Valence classifies bridge-problem types, and Generative Bridge Search generates candidate-answer shapes through typed blocker-unblocker matching, adaptation, guardrails, and verification obligations.
+Bridge-Valence Diagnostics and Generative Bridge Search are core discovery-methodology papers: Bridge Valence classifies bridge-problem types, and Generative Bridge Search generates candidate-answer shapes through typed blocker-unblocker matching, declared adaptation, guardrails, and verification obligations.
 
 ## What the programme does not claim
 
@@ -44,27 +62,27 @@ The current claim is narrower: foundational transfer claims become inspectable o
 
 | Path | Purpose |
 |---|---|
-| `AUTHOR_METADATA.md` | Author identity and ORCID information. |
-| `NON_CLAIMS_AND_SCOPE.md` | Public scope and non-claims statement. |
-| `AI_ASSISTANCE_DISCLOSURE.md` | AI-assistance disclosure language. |
-| `MAIN_PUBLIC_CORPUS.md` | Canonical public corpus list. |
-| `PUBLIC_SUPPORT_AND_ARTICLE_CANDIDATES.md` | Support papers and first article candidates. |
-| `FRONTIER_BRANCH_INDEX.md` | Frontier branch index, not a completed-proof claim. |
-| `FULL_MANUSCRIPT_EXPORT_QUEUE.md` | What still needs to be exported from Drive into this repository. |
-| `VERSION_LINEAGE_NOTES.md` | Version-control and provenance rules. |
-| `papers/` | Destination for full manuscript exports. |
-| `source_pointers/` | Notes about initial placeholder files and why they were removed from the root reader path. |
+| `papers/canonical/` | Public repository manuscripts that have passed the current public-register cleanup process. |
+| `papers/canonical_working/` | Public canonical working manuscripts that branch/application papers depend on. |
+| `docs/release/` | Release checklist, author metadata, non-claims, AI disclosure, and release notes. |
+| `docs/status/` | Corpus status, citation status, release sequence, and title/register controls. |
+| `docs/protocols/` | Suitability audit, cross-reference audit, and export protocols. |
+| `docs/provenance/` | Version-lineage and internal archive notes. |
+| `docs/frontier/` | Frontier-branch triage notes and branch-specific cautions. |
+| `public_audit/` | Paper-level suitability reports produced during release preparation. |
+| `public_repair/` | Repair packets used to convert internal manuscripts into public-register manuscripts. |
 
-## Before GitHub Release / Zenodo
+## Before Zenodo
 
-Do **not** create the Zenodo DOI yet. First:
+The next release step is to create a GitHub release tag and archive it on Zenodo. Before doing that:
 
-1. Export the full manuscripts from Google Drive as Markdown and PDF.
-2. Place them in the appropriate `papers/` subfolders.
-3. Confirm the root-level files are navigation and policy files only.
-4. Create a GitHub release tag such as `v2.1-public-footprint`.
-5. Archive that release on Zenodo and then add the DOI back into `CITATION.cff` and this README.
+1. Confirm `PUBLIC_MANUSCRIPT_INDEX.md` matches the actual files in `papers/`.
+2. Confirm `CITATION.cff` is current.
+3. Confirm non-claims and AI disclosure are visible under `docs/release/` or root.
+4. Create a release manifest for the exact release contents.
+5. Create a GitHub release tag.
+6. Archive that release on Zenodo and add the DOI back into `CITATION.cff`, this README, and the release manifest.
 
 ## Citation
 
-A provisional `CITATION.cff` is included. After the Zenodo DOI is created, the DOI should be added to `CITATION.cff`, this README, and `AUTHOR_METADATA.md`.
+A provisional `CITATION.cff` is included. After the Zenodo DOI is created, the DOI should be added to `CITATION.cff`, this README, and the release manifest.
