@@ -2,14 +2,19 @@
 
 This matrix tracks the public citation status of RFOP manuscripts for staged release and later arXiv/journal submission.
 
+See also:
+
+```text
+PUBLIC_MANUSCRIPT_INDEX.md
+```
+
 ## Citation status legend
 
 | Status | Meaning |
 |---|---|
-| `release-ready candidate` | Can enter first public release after repair and cross-reference audit |
-| `public-repair needed` | Important, but must be cleaned before public PDF release |
+| `repository manuscript` | Public manuscript with stable path in `papers/canonical/` |
+| `public canonical working manuscript` | Public canonical manuscript with stable path in `papers/canonical_working/`, but not yet final article-ready |
 | `carry-forward audit` | Must be compared against a later paper before release/supersession decision |
-| `source-quality audit` | Source/export quality must be fixed before release |
 | `application candidate` | Not a foundation driver; may be released/submitted as application/exemplar |
 | `case study` | Public as case study after scope cleanup |
 | `frontier branch` | Branch-specific paper; do not mix into core foundation release without branch map |
@@ -17,62 +22,41 @@ This matrix tracks the public citation status of RFOP manuscripts for staged rel
 
 ## Foundation and methodology papers
 
-| Paper / family | Current public status | Can be cited as public in v1 release? | Notes |
+| Paper / family | Current public status | Can be cited as public now? | Stable path / notes |
 |---|---|---:|---|
-| Relation-First Position Statement | release-ready candidate | yes after minor repair | Entry/parser document |
-| Programme Guide / Reader Map | public-repair needed | yes after repair | Must remove internal-control overload |
-| Theory of Organization | release-ready candidate | yes after metadata/reference check | Core foundation |
-| Charted Organization Theory | release-ready candidate | yes after metadata/reference check | Core foundation |
-| Recursive Chart Learning Theory | release-ready candidate | yes after metadata/reference check | Core foundation |
-| Triadic Closure / Recursive Residual Theory | release-ready candidate | yes after scope/reference check | Core architecture |
-| Cross-Closure Instantiation Theorems | release-ready candidate | yes after minor repair | Integration theorem note |
-| Charted Objecthood and Contextual Gluing | release-ready candidate | yes after reference check | Foundation/objecthood paper |
-| Triadic Substitution / Coupling / Closure Atlases | public-repair needed | not yet | Target-theorem status and patch-register cleanup required |
-| No-Free-Transfer and Bridge Completion | carry-forward audit | not yet | Verify carry-forward into NUR |
-| No Undeclared Relation | release-ready candidate / light repair | yes after repair | Main bridge/no-go paper |
-| No Undeclared Boundary | release-ready candidate | yes after minor repair | Face corollary |
-| No Undeclared Observer | release-ready candidate | yes after minor repair | Face corollary |
-| Recursive Bridge Calibration | public-repair needed | not yet | Method paper; abstract/register repair needed |
-| Bridge-Valence Diagnostics | public-repair needed | not yet | Dense core methodology; preserve machinery |
-| Generative Bridge Search | public-repair needed | not yet | Dense core methodology; preserve guardrails |
-| Face Requirement Kernels | release-ready candidate / light repair | yes after scope/reference check | Late foundation / kernel calculus |
-| Declared Witness Assembly | source-quality audit + public repair | not yet | Formula QA from DOCX required |
+| Relation-First Position Statement | repository manuscript | yes | `papers/canonical/relation_first_constraint_position_statement_v0_4_public.*` |
+| Programme Guide / Reader Map | repository manuscript | yes | `papers/canonical/relation_first_organization_programme_guide_v0_6_public.*` |
+| Theory of Organization | repository manuscript | yes | `papers/canonical/relation_first_organization_theory_v0_5_1_public.*` |
+| Charted Organization Theory | repository manuscript | yes | `papers/canonical/charted_organization_theory_v0_5_public.*` |
+| Recursive Chart Learning Theory | repository manuscript | yes | `papers/canonical/recursive_chart_learning_v0_5_public.*` |
+| Triadic Closure / Recursive Residual Theory | repository manuscript | yes | `papers/canonical/triadic_closure_recursive_residuals_v0_7_public.*` |
+| Cross-Closure Instantiation Theorems | repository manuscript | yes | `papers/canonical/cross_closure_instantiation_theorems_v0_7_public.*` |
+| Charted Objecthood and Contextual Gluing | repository manuscript | yes | `papers/canonical/charted_objecthood_contextual_gluing_v0_5_public.*` |
+| Triadic Substitution / Coupling / Closure Atlases | repository manuscript | yes | `papers/canonical/triadic_closure_atlases_v0_9_public.*` |
+| No-Free-Transfer and Bridge Completion | carry-forward audit | not yet | Verify carry-forward into NUR before standalone release/supersession |
+| No Undeclared Relation | repository manuscript | yes | `papers/canonical/no_undeclared_relation_bridge_completion_v1_1_public.*` |
+| No Undeclared Boundary | repository manuscript | yes | `papers/canonical/no_undeclared_boundary_v0_5_public.*` |
+| No Undeclared Observer | repository manuscript | yes | `papers/canonical/no_undeclared_observer_v0_5_public.*` |
+| Recursive Bridge Calibration | repository manuscript | yes | `papers/canonical/recursive_bridge_calibration_v1_7_public.*` |
+| Bridge-Valence Diagnostics | public canonical working manuscript | yes, as working manuscript | `papers/canonical_working/bridge_valence_diagnostics_v1_12_working.*` |
+| Generative Bridge Search | public canonical working manuscript | yes, as working manuscript | `papers/canonical_working/generative_bridge_search_v0_16_working.*` |
+| Face Requirement Kernels | repository manuscript | yes | `papers/canonical/face_requirement_kernels_v0_6_public.*` |
+| Declared Witness Assembly | public canonical working manuscript | yes, as working manuscript | `papers/canonical_working/declared_witness_assembly_v0_4_working.*` |
 
 ## External exemplars, applications, and case studies
 
-| Paper / family | Current public status | Can be cited as public in v1 release? | Notes |
+| Paper / family | Current public status | Can be cited as public now? | Notes |
 |---|---|---:|---|
-| Paper A | application candidate | later | Strong publishable foundations-of-physics exemplar |
-| Paper B | application candidate | later | Strong quotient/minimality exemplar |
+| Paper A | application candidate | not yet | Strong publishable foundations-of-physics exemplar |
+| Paper B | application candidate | not yet | Strong quotient/minimality exemplar |
 | No Undeclared Photon | case study / public-repair needed | not yet | NUR/NUB/NUO photon relation-packet case |
-| Persistence Margins | application candidate / release-ready | yes after minor repair | TDA-adjacent theorem note |
-| Moving Supports | application candidate / minor repair | later | Report write previously blocked; notation check needed |
+| Persistence Margins | application candidate / release-ready | not yet | TDA-adjacent theorem note; pending application batch |
+| Moving Supports | application candidate / minor repair | not yet | TDA-adjacent theorem extension; notation check needed |
 
-## First release citation target
+## First release public manuscript corpus
 
-For a first public programme release, prioritize making these citable:
-
-1. Relation-First Position Statement
-2. Theory of Organization
-3. Charted Organization Theory
-4. Recursive Chart Learning Theory
-5. Triadic Closure / Recursive Residual Theory
-6. Cross-Closure Instantiation Theorems
-7. Charted Objecthood and Contextual Gluing
-8. No Undeclared Relation
-9. No Undeclared Boundary
-10. No Undeclared Observer
-11. Face Requirement Kernels
-
-Then add repaired versions of:
-
-12. Programme Guide / Reader Map
-13. Triadic Substitution / Closure Atlases
-14. Recursive Bridge Calibration
-15. Bridge-Valence Diagnostics
-16. Generative Bridge Search
-17. Declared Witness Assembly
+The current public corpus has stable paths for fourteen canonical repository manuscripts and three canonical working manuscripts. It is now suitable to support a first programme-footprint release once the root README, CITATION metadata, manifest, non-claims, and Zenodo metadata are aligned.
 
 ## Rule
 
-A paper may cite an RFOP paper as public only when that paper is included in the same release, has its own public preprint/DOI, or has a stable public repository manuscript path. Otherwise the dependency must be summarized locally or marked as forthcoming without bearing proof weight.
+A paper may cite an RFOP paper as public only when that paper is included in the same release, has its own public preprint/DOI, or has a stable public repository manuscript path listed in `PUBLIC_MANUSCRIPT_INDEX.md`. Otherwise the dependency must be summarized locally or marked as forthcoming without bearing proof weight.
