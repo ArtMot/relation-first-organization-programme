@@ -3,7 +3,8 @@
 **Author:** Artur Motruk  
 **Affiliation:** Independent researcher  
 **ORCID:** 0009-0003-6928-1701  
-**Repository status:** public programme-footprint repository, pre-Zenodo DOI  
+**Repository status:** public programme-footprint repository, Zenodo archived  
+**DOI:** https://doi.org/10.5281/zenodo.20600748  
 
 This repository is the public programme-footprint repository for the **Relation-First Organization Programme**. It provides stable public paths for the current foundation corpus, canonical working methodology papers, release controls, non-claims, citation guidance, and staged-publication documentation.
 
@@ -15,7 +16,7 @@ This repository is the public programme-footprint repository for the **Relation-
 | `papers/canonical/` | Canonical repository manuscripts. |
 | `papers/canonical_working/` | Canonical working manuscripts needed by branch/application papers. |
 | `docs/` | Release controls, protocols, status tables, provenance notes, and frontier planning. |
-| `CITATION.cff` | Provisional citation metadata, to be updated after Zenodo DOI. |
+| `CITATION.cff` | Citation metadata for the Zenodo-archived public manuscript footprint release. |
 
 ## Current public manuscript corpus
 
@@ -72,17 +73,18 @@ The current claim is narrower: foundational transfer claims become inspectable o
 | `public_audit/` | Paper-level suitability reports produced during release preparation. |
 | `public_repair/` | Repair packets used to convert internal manuscripts into public-register manuscripts. |
 
-## Before Zenodo
+## Zenodo release
 
-The next release step is to create a GitHub release tag and archive it on Zenodo. Before doing that:
+The first public manuscript footprint release is archived at:
 
-1. Confirm `PUBLIC_MANUSCRIPT_INDEX.md` matches the actual files in `papers/`.
-2. Confirm `CITATION.cff` is current.
-3. Confirm non-claims and AI disclosure are visible under `docs/release/` or root.
-4. Create a release manifest for the exact release contents.
-5. Create a GitHub release tag.
-6. Archive that release on Zenodo and add the DOI back into `CITATION.cff`, this README, and the release manifest.
+```text
+https://doi.org/10.5281/zenodo.20600748
+```
 
 ## Citation
 
-A provisional `CITATION.cff` is included. After the Zenodo DOI is created, the DOI should be added to `CITATION.cff`, this README, and the release manifest.
+Use the Zenodo DOI above or the repository `CITATION.cff` metadata. Suggested short citation:
+
+```text
+Motruk, A. (2026). Relation-First Organization Programme: Public Manuscript Footprint Release (v0.1-public-manuscript-footprint). Zenodo. https://doi.org/10.5281/zenodo.20600748
+```
