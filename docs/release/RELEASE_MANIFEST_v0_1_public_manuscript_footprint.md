@@ -5,8 +5,8 @@
 **Author:** Artur Motruk  
 **ORCID:** 0009-0003-6928-1701  
 **Repository:** https://github.com/ArtMot/relation-first-organization-programme  
-**DOI:** pending Zenodo release  
-**Status:** pre-Zenodo release manifest  
+**DOI:** https://doi.org/10.5281/zenodo.20600748  
+**Status:** Zenodo archived public manuscript footprint release  
 
 ## Purpose
 
@@ -47,7 +47,7 @@ These working manuscripts are public because later branch/application papers dep
 |---|---|
 | `README.md` | Public landing page. |
 | `PUBLIC_MANUSCRIPT_INDEX.md` | Stable path index for public manuscripts. |
-| `CITATION.cff` | Citation metadata, pending Zenodo DOI. |
+| `CITATION.cff` | Citation metadata with Zenodo DOI. |
 | `docs/README.md` | Documentation index. |
 | `docs/status/RFOP_CITATION_STATUS_MATRIX.md` | Citation status matrix. |
 | `docs/status/FOUNDATION_CORPUS_STATUS.md` | Foundation corpus status table. |
@@ -65,13 +65,8 @@ The release also does not claim that generated candidates are verified solutions
 
 The manuscripts and release materials were developed with AI-assisted drafting and review support. The author directed the research programme, selected and revised the mathematical and methodological content, and is responsible for all claims and errors.
 
-## Pending before Zenodo DOI
+## Citation
 
-Before publishing to Zenodo:
-
-1. Confirm that `PUBLIC_MANUSCRIPT_INDEX.md` matches the repository file tree.
-2. Confirm root clutter cleanup is sufficient.
-3. Confirm license choice.
-4. Create a GitHub release tag.
-5. Archive the release on Zenodo.
-6. Add the Zenodo DOI to `README.md`, `CITATION.cff`, and this manifest.
+```text
+Motruk, A. (2026). Relation-First Organization Programme: Public Manuscript Footprint Release (v0.1-public-manuscript-footprint). Zenodo. https://doi.org/10.5281/zenodo.20600748
+```
