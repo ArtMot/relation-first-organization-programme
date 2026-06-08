@@ -6,8 +6,9 @@ authors:
     given-names: "Artur"
     orcid: "https://orcid.org/0009-0003-6928-1701"
 version: "v0.1-public-manuscript-footprint"
-date-released: 2026-06-04
-url: "https://github.com/ArtMot/relation-first-organization-programme"
+date-released: 2026-06-08
+doi: "10.5281/zenodo.20600748"
+url: "https://doi.org/10.5281/zenodo.20600748"
 type: "generic"
 abstract: "Public programme-footprint repository for the Relation-First Organization Programme, including canonical repository manuscripts, canonical working manuscripts, non-claims, citation guidance, and staged release controls."
 license: "CC-BY-4.0"
